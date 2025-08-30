@@ -58,11 +58,11 @@ document.addEventListener('DOMContentLoaded', () => {
     function setBackground(condition) {
         if (condition.includes("clear")) {
             body.style.backgroundImage = "url('./valeria-v-qJq66ZcW3lU-unsplash.jpg')";
-        } else if (condition.includes("rain")) {
+        } else if (condition.includes("light rain")) {
             body.style.backgroundImage = "url('./filip-zrnzevic-_EMkxLdko9k-unsplash.jpg')";
         } else if (condition.includes("cloud")) {
             body.style.backgroundImage = "url('./nick-fewings-HlTIv8HinBU-unsplash.jpg')";
-        } else if (condition.includes("rain")) {
+        } else if (condition.includes("moderate rain")) {
             body.style.backgroundImage = "url('./jms-kFHz9Xh3PPU-unsplash.jpg')";
         } else {
             body.style.backgroundImage = "url('./daniel-ramirez-q4TfWtnz_xw-unsplash.jpg')";
