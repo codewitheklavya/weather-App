@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link href="./output.css" rel="stylesheet">
+</head>
+<body id="app-body" 
+      class="flex justify-center items-center h-screen bg-cover bg-center transition-all duration-500" 
+      style="background-image: url('./daniel-ramirez-q4TfWtnz_xw-unsplash.jpg')">
+
+<div class="bg-white/10 backdrop-blur-lg border border-white/20 p-8 rounded-2xl shadow-xl text-center w-96">
+  <h1 class="text-2xl font-bold mb-4 text-black drop-shadow">Weather App</h1>
+
+  <div class="flex gap-2 mb-4">
+    <input type="text" id="city-input" placeholder="Enter city e.g. Delhi"
+           class="flex-1 border border-black bg-white/10 text-black placeholder-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-1 focus:ring-black">
+    <button id="get-weather-btn"
+            class="bg-gray-900  text-white px-1 py-1 rounded-lg shadow cursor-pointer">
+      Get Weather
+    </button>
+  </div>
+
+  <div id="weather-info" class="hidden">
+    <h2 id="city-name" class="text-xl font-semibold mb-1 text-white drop-shadow"></h2>
+    <p id="temp" class="text-lg text-white"></p>
+    <p id="description" class="text-gray-200"></p>
+  </div>
+
+  <p id="error-msg" class="hidden text-red-400 mt-2 font-semibold">City not found, Please try again</p>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
