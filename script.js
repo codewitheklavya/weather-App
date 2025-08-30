@@ -62,7 +62,10 @@ document.addEventListener('DOMContentLoaded', () => {
             body.style.backgroundImage = "url('./jms-kFHz9Xh3PPU-unsplash.jpg')";
         } else if (condition.includes("cloud")) {
             body.style.backgroundImage = "url('./nick-fewings-HlTIv8HinBU-unsplash.jpg')";
-        } else {
+        } else if (condition.includes("snow")){
+            body.style.backgroundImage = "url('./ian-schneider-dqMxDqdhg_4-unsplash.jpg')"
+        } 
+        else {
             body.style.backgroundImage = "url('./daniel-ramirez-q4TfWtnz_xw-unsplash.jpg')";
         }
     }
