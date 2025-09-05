@@ -14,12 +14,10 @@ A responsive weather application that allows users to search for any city and vi
 - **JavaScript**
 - **OpenWeatherMap API**
 
-## 📸 Preview
-![Weather App Screenshot](<img width="1918" height="904" alt="image" src="https://github.com/user-attachments/assets/b0e6d3ca-f88f-4dc2-b0e7-202aad330577" />
-)
+![Weather App Screenshot](https://github.com/user-attachments/assets/09d74e65-3f1b-46ce-83fc-bc8dfd4be955)
 
 ## 🔗 Live Demo
-[Click here to view the app]([your-vercel-link-here](https://weather-app-oy6z.vercel.app/))
+[Click here to view the app](https://weather-app-oy6z.vercel.app/)
 
 ## 📌 Installation & Usage
 1. Clone the repository  
